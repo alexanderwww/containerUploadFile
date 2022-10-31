@@ -1,0 +1,86 @@
+#container_archivos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+#container_archivos .drop-area{
+    border: 5px dashed #ddd;
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#container_archivos .drop-area.active{
+    background-color: #b8d4fe;
+    color: #000;
+    border: 2px dashed #618ac9;
+}
+
+#container_archivos .drop-area h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+}
+
+#container_archivos .drop-area span{
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+}
+
+#container_archivos .drop-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    border: none;
+    background-color: #5256ad;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#container_archivos .file-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px #ddd;
+}
+
+#container_archivos .file-container .img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#container_archivos #preview{
+    margin-top: 10px;
+}
+
+#container_archivos .status-text{
+    padding: 0 10px;
+}
+
+#container_archivos .success{
+    color: #52ad5a;
+}
+
+#container_archivos .failure{
+    color: #ff0000;
+} 
+
+
+
+
+
+
+
